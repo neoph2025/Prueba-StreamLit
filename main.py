@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 
 st.title("Mi app con OpenAI y Streamlit")
 
-api_key_usuario = st.text_input("Introduce tu API_Key", type="password")
+api_key_usuario = st.text_input("Introduce tu API_Key", key="chatbot_api_key", type="password")
 
 if api_key_usuario:
 
